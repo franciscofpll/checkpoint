@@ -11,4 +11,3 @@ commit_date="$(TZ="America/Sao_Paulo" date +%F)"
 
 git -C "$REPO_ROOT" add -A
 git -C "$REPO_ROOT" commit -m "$commit_date"
-git -C "$REPO_ROOT" push
